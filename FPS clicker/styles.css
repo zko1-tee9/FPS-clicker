@@ -1,0 +1,171 @@
+
+
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+
+}
+
+body {
+    transition: .3s;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background:linear-gradient(144deg,#AF40FF, #5B42F3,#00DDEB);
+}
+
+.header-wrapper {
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.fps, .shop-ico {
+    color: white;
+    font-size: 30px;
+    font-family: Space Mono;
+}
+.fps {
+    cursor: wait;
+}
+.shop-ico {
+    cursor: pointer;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+
+.main-wrapper {
+    width: 100%;
+    height: 100%;
+} 
+
+.count {
+    margin: 50px 0 50px 0;
+    font-size: 96px;
+    font-family: Space mono;
+}
+@keyframes pulse {
+    0% {
+        color:#AF40FF       
+    }
+    33% {
+        color:#604be6 
+    }
+    66% {
+        color:#00DDEB
+    }
+    100% {
+        color: #AF40FF;
+    }
+}
+.shop-fill {
+    font-family: space mono;
+    font-size: 25px;
+    margin: 10px 0 0 0;
+    display: block;
+}
+
+
+.name-shop {
+    font-size: 30px;
+    font-family: space mono;
+}
+
+
+
+
+.window-wrapper-quad {
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.btn-green:hover {
+    background:rgb(13, 228, 99) ;
+}
+.quad-over{
+    background: rgba(0, 0, 0, 0);
+}
+.modal-wrapper-quad {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(144deg,#AF40FF, #5B42F3,#00DDEB);
+    font-family:space mono;
+    color: white;
+}
+.quad-modal {
+    display: block;
+    justify-content: none;
+}
+
+.animation-pulse {
+    animation: pulse 2s infinite ease-in-out;
+}
+
+.quad-windowZ {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .3);
+    z-index: 99998;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+    align-items: center;
+    text-align: center;
+}
+.window-wrapper-quadZ {
+    width: 350px;
+    height: 350px;
+    background: white;
+    border-radius: 6px;
+}
+.quad-window-topZ {
+    height: 20px;
+    width: 100%;
+    background: gray;
+}
+.quad-window-topZ p {
+    margin-right:20px ;
+    color: azure;
+    width: 20px;
+    height: 20px;
+    background: #cf1818;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.window-quad-fillZ {
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+.quad-window-topZ{
+    background: linear-gradient(144deg,#AF40FF, #5B42F3,#00DDEB);
+}
+.window-wrapper-quadZ {
+    border-radius: 6px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quad.css">
+    <script src="quad.js"></script>
+    <title>Quad lib</title>
+</head>
+<body>
+
+    <header class="quad-header">
+        <div class="quad-wrapper">
+            <div class="quad-header-wrapper">
+                <h1 class="name-quad-header">QUAD</h1>
+                <h1 class="text-quad-header">quad</h1>
+            </div>
+        </div>
+    </header>
+
+    <button class="quad-btn" onclick="quadWindow()">open</button>
+    <div class="quad-window">
+        <div class="wrapper-quad">
+            <div class="window-wrapper-quad">
+                <div class="quad-window-top"  align="right">
+                    <p onclick="quadWindowX()">x</p>
+                </div>
+                <div class="window-quad-fill">
+                        
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <button class="quad-btn" onclick="quadModal()">open</button>
+    <div class="quad-modal">
+        <div class="wrapper-quad">
+            <div class="modal-wrapper-quad">
+                <h1 class="quad-modal-text">
+                    HELLO!
+                </h1>
+                <button class="quad-btn" onclick="quadModalX()">close</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="quad-toggle" onclick="quadToggle()">
+        <p class="quad-toggle-round"></p>
+    </div>
+
+    <button class="quad-btn btn-blue">QUAD</button>
+    <button class="quad-btn btn-green">QUAD</button>
+    <button class="quad-btn btn-red">QUAD</button>
+    <button class="quad-btn quad-btn-hover-opac-blue">QUAD</button>
+    <button class="quad-btn quad-btn-hover-opac-green">QUAD</button>
+    <button class="quad-btn quad-btn-hover-opac-red">QUAD</button>
+    <button class="quad-btn quad-btn-prem">QUAD</button>
+
+    <div class="quad-over quad-btn">
+        <button class="quad-btn quad-btn-black-fill" onclick="add()">Click</button>    
+    </div>
+
+    <input type="text" class="quad-inp-text" maxlength="12" placeholder="valid">
+    <button class="quad-btn" onclick="quadValid()">Check</button>
+
+</body>
+</html>
